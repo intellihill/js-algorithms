@@ -1,6 +1,7 @@
 import LinkedListNode from "./LinkedListNode.js";
 import Comparator from "./Comparator.js";
 
+
 export default class LinkedList {
   constructor(compareFunction) {
     this.head = null;
